@@ -16,8 +16,10 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css\utility.css" />
   </head>
 
   <body>
@@ -48,16 +50,37 @@
     </header>
     <main>
       <section class="firstsection">
-        <div class="leftsection">Hi, I am Aayushi 
-          <div>and I am a Software Developer </div>
+        <div class="leftsection">
+          Hi, I am <span class="purple">Aayushi.K.</span>
+          <div>and I am a </div> <span id="element"></span> 
+          <!-- will help in 
+          <div> developing and crafting  innovative solutions</div> -->
+          <div><button id="btn1">To Know more <i class="fa fa-arrow-right"></i></button></div>
+          
         </div>
-        <div class="rightsection"><img src="images\1.png" alt="female Developer"></div>
+        <div class="rightsection">
+          <img src="images\1.png" alt="female Developer" height="500" />
+        </div>
       </section>
+      <hr>
+      <section class="secondsection">
+        <h1>Projects and mockups</h1>
+      </section>
+
     </main>
     <footer>
       <!-- place footer here -->
     </footer>
     <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Software Developer","Problem Solver","Web Developer"],
+        // will help in developing innovative solution
+        typeSpeed: 50,
+      });
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

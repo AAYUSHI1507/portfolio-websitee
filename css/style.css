@@ -64,6 +64,9 @@ nav ul li {
   /* box-shadow: 1px 0px 20px 5px purple; */
   padding: 10px;
 }
+#btn1:hover{
+  background-color: #c091e944;
+}
 .rightsection img {
   margin: 50px 0;
 }

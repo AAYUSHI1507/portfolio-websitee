@@ -42,7 +42,7 @@ nav ul li {
 .firstsection {
   display: flex;
   justify-content: space-around;
-  margin: 80px 0;
+  margin: 130px 0;
 }
 
 .firstsection > div {
@@ -77,4 +77,6 @@ nav ul li {
 /* Second section in main */
 .secondsection{
     max-width: 80vw;
+    margin: auto;
+    height: 80vh;
 }
